@@ -1,0 +1,44 @@
+body{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.section1{
+    background-attachment: fixed;
+    width: 100%;
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(a.png);
+    height: 700px;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(255, 0, 0, 0.178);
+    z-index: 1;
+}
+.section2{
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-image: url(b.png);
+    height: 700px;
+}
+.section3{
+    background-attachment: fixed;
+    width: 100%;
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(c.png);
+    height: 700px;
+}
